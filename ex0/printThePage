@@ -1,0 +1,7 @@
+#! /usr/bin/env python3
+import requests
+
+#Pour ce premier exercice, je vais simplement te demander d'afficher le contenu de la page internet suvante :
+# https://fr.wikipedia.org/wiki/%C3%89cole_pour_l%27informatique_et_les_nouvelles_technologies
+#Ce sera très certainement illisible, vu que absolument toute les balises et feuilel de style seront affichés.
+#On va simplifier tout ça dansles exercices suivant.
