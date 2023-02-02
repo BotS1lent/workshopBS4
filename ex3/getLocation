@@ -10,15 +10,3 @@ from bs4 import BeautifulSoup
 # Ville1
 # Ville2
 # ...
-
-url = "https://fr.wikipedia.org/wiki/%C3%89cole_pour_l%27informatique_et_les_nouvelles_technologies"
-response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
-tmp = soup.find('span', class_='wd_p131')
-town = []
-for elem in tmp:
-    txt = elem.get_text()
-    if "," not in txt:
-        town.append(txt)
-for elem in town:
-    print(elem)
