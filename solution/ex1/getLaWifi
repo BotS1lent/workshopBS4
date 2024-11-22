@@ -1,0 +1,15 @@
+#! /usr/bin/env python3
+import requests
+from bs4 import BeautifulSoup
+
+#Parfait maintenant nous pouvons vraiment commencer avec cette première étape : ta première soupe !
+#Si tu veux jouer le jeu pour cette exercice, essaye de ne pas ouvrir le lien, tu gagneras rien mais ce sera marrant !
+#Voici le lien de la page wikipédia de l'histoire de la wifi, https://www.lawifi.fr/
+#J'aimerais que tu récupère le contenu de la balise h1 et que tu m'affiche le texte contenu !
+
+url = "https://www.lawifi.fr/"
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+tmp = soup.find('h1')
+print(tmp.text)
+print(soup.h1.text)
