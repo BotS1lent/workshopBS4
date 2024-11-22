@@ -3,8 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-#Allez, on passe au niveau 1 du scrapping. Voici le lien racine : https://supermarches.grandes-enseignes.com/67-bas-rhin/
-#Sur cette page, on peut accéder à toute les communes bas-rhin avec un lien.
-#J'aimerais que vous m'affichiez tout les titres d'onglets de chacune des pages.
+#Allez, on passe au niveau 1 du scrapping. Voici le lien racine : https://www.randogps.net/randonnee-pedestre-gps-bas-rhin-strasbourg-67.php
+#Sur cette page, on peut accéder à toute les randonnées du bas-rhin avec un lien.
+#J'aimerais que vous m'affichiez tout les titres d'onglets de chacune de ces randonnées !.
 #Bonne chance :)
 
