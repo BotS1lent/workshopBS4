@@ -4,6 +4,6 @@ from bs4 import BeautifulSoup
 import string
 
 #Plus de "La wifi" compris ? Maintenant que tu as appris à récupérer UN texte, j'aimerais que tu en récupère PLEIN !
-#Voici le lien de la page wikipédia de du Championnat d'islande de football en 1982 (oui), https://fr.wikipedia.org/wiki/Championnat_d%27Islande_de_football_1982
+#Voici le lien de la page wikipédia du Championnat d'Islande de football en 1982 (oui), https://fr.wikipedia.org/wiki/Championnat_d%27Islande_de_football_1982
 #J'aimerais que tu récupère tout les lien de la pages, et que tu puisses me les afficher !
 #ATTENTION, je veux seulement les liens commençant par /wiki/ !
